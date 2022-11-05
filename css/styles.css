@@ -1,0 +1,106 @@
+:root {
+  font-size: 62.5%;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.btn {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 3rem;
+  padding: 1rem 1.5rem;
+  border-radius: 2rem;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.body-box {
+  max-width: 98rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+.nav-logo {
+  font-size: 4rem;
+}
+.nav-links {
+  margin-left: auto;
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  align-items: center;
+  font-size: 2rem;
+}
+.nav-links :not(:last-child) {
+  margin-right: 2rem;
+}
+.nav-links > * {
+  cursor: pointer;
+}
+
+.header-hero {
+  background-image: linear-gradient(rgba(0, 128, 0, 0.2), rgba(0, 0, 255, 0.2)), url(../../assets/hero-home.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 30rem;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+.header-hero--heading {
+  background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.5));
+  width: 40%;
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  padding: 1rem;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.3);
+}
+.header-hero--heading--lg {
+  font-size: 4.5rem;
+}
+.header-hero--heading--md {
+  font-size: 2.4rem;
+}
+.header-hero__btn {
+  position: absolute;
+  left: 50%;
+  bottom: 10%;
+  transform: translate(-50%);
+}
+
+.why-up {
+  height: 23rem;
+  background-color: aqua;
+}
+.why-up--triangle {
+  position: relative;
+  top: 4rem;
+  background-color: red;
+  height: 15rem;
+  clip-path: polygon(50% 0, 75% 100%, 25% 100%);
+}
+.why-up--heading {
+  position: absolute;
+  font-size: 3rem;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*# sourceMappingURL=styles.css.map */

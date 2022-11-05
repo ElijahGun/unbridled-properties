@@ -1,0 +1,33 @@
+
+
+.body-box {
+    max-width: 98rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+
+    &-logo {
+        font-size: 4rem;
+    }
+
+    &-links{
+        margin-left: auto;
+        display: flex;
+        text-decoration: none;
+        list-style: none;
+        align-items: center;
+        font-size: 2rem;
+
+        & :not(:last-child) {
+            margin-right: 2rem;
+        }
+
+        & > * {
+            cursor: pointer;
+        }
+    }
+}

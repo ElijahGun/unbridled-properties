@@ -1,0 +1,22 @@
+
+
+.why-up {
+    //dev 
+    height: 23rem;
+    background-color: aqua;
+
+    &--triangle {
+        position: relative;
+        top: 4rem;
+        background-color: red;
+        height: 15rem;
+        clip-path: polygon(50% 0, 75% 100%, 25% 100%,  ); //0 0, 100% 0, 100% 100%, 75% 100%, 50% 0, 25% 100%, 0 100%
+    }
+    &--heading {
+        position: absolute;
+        font-size: 3rem;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
