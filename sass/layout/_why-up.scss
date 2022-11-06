@@ -2,7 +2,7 @@
 
 .why-up {
     padding-top: 7rem;
-    margin-bottom: 5rem;
+    margin-bottom: 6rem;
 
     &--triangle {
         position: relative;
@@ -25,15 +25,17 @@
  background: var(--color-blue-light);
  height: 70vh;
 
+
  & > * {
     width: 40%;
     background-color: var(--color-blue-primary);
+    background-color: #37487c;
     box-shadow: 0 1rem 1.5rem rgb(black, .3);
+    color: rgb(white, .8);
  }
 }
 
 .process-design {
-    background: linear-gradient( to bottom left, var(--color-blue-primary), var(--color-blue-light));
 
     &-top {
         height: 40%;
@@ -49,6 +51,7 @@
             padding: .5rem 1rem;
             font-size: 2rem;
             background: linear-gradient( rgb(white, .7), rgb(white, .5));
+            color: black;
         }
     }
 
@@ -74,7 +77,8 @@
 }
 
 .process-build{
-    background: linear-gradient( to bottom right, var(--color-blue-primary), var(--color-blue-light));
+    
+    //background: linear-gradient( to bottom right, var(--color-blue-primary), var(--color-blue-light));
 
     &-top {
         height: 40%;
@@ -86,6 +90,7 @@
 
         &__heading {
             position: absolute;
+            color: rgb(black, .9);
             left: 2rem;
             top: 6rem;
             padding: .5rem 1rem;

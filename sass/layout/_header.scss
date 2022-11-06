@@ -11,7 +11,7 @@
     &__img {
         height: 100%;
         width: 100%;
-        background-image: linear-gradient( rgb(green,.2), rgb(blue, .2)), url(../../assets/hero-home.jpg); //
+        background-image: linear-gradient( rgb(white,.2), rgb(white, .2)), url(../../assets/hero-home.jpg); //
         background-size: cover;
         background-position: center;
         transition: all .5s ease;
@@ -27,12 +27,13 @@
 
         &--heading {
             background: linear-gradient( rgb(white, .7), rgb(white, .5));
-            width: 40%;
+            width: 70%;
             position: absolute;
-            top: 15%;
-            left: 5%;
+            top: 35%;
+            left: 50%;
             padding: 1rem;
             box-shadow: 0 1rem 1rem rgb(black, .3);
+            transform: translateX(-50%);
 
             &--lg {
                 font-size: 4.5rem;

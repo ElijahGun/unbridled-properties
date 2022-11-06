@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  padding: 1.5rem;
+  padding: 0;
   margin: 0;
 }
 
@@ -33,6 +33,7 @@ body {
   max-width: 120rem;
   margin: 0 auto;
   margin-top: 2rem;
+  padding: 1.2rem;
 }
 
 .nav {
@@ -72,7 +73,7 @@ body {
 .header-hero__img {
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(rgba(0, 128, 0, 0.2), rgba(0, 0, 255, 0.2)), url(../../assets/hero-home.jpg);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(../../assets/hero-home.jpg);
   background-size: cover;
   background-position: center;
   transition: all 0.5s ease;
@@ -83,12 +84,13 @@ body {
 }
 .header-hero--heading {
   background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.5));
-  width: 40%;
+  width: 70%;
   position: absolute;
-  top: 15%;
-  left: 5%;
+  top: 35%;
+  left: 50%;
   padding: 1rem;
   box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.3);
+  transform: translateX(-50%);
 }
 .header-hero--heading--lg {
   font-size: 4.5rem;
@@ -129,7 +131,7 @@ body {
 
 .why-up {
   padding-top: 7rem;
-  margin-bottom: 5rem;
+  margin-bottom: 6rem;
 }
 .why-up--triangle {
   position: relative;
@@ -154,12 +156,11 @@ body {
 .process-box > * {
   width: 40%;
   background-color: var(--color-blue-primary);
+  background-color: #37487c;
   box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.3);
+  color: rgba(255, 255, 255, 0.8);
 }
 
-.process-design {
-  background: linear-gradient(to bottom left, var(--color-blue-primary), var(--color-blue-light));
-}
 .process-design-top {
   height: 40%;
   position: relative;
@@ -174,6 +175,7 @@ body {
   padding: 0.5rem 1rem;
   font-size: 2rem;
   background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.5));
+  color: black;
 }
 .process-design-bottom__text-box {
   padding: 2.5rem;
@@ -190,9 +192,6 @@ body {
   text-align: center;
 }
 
-.process-build {
-  background: linear-gradient(to bottom right, var(--color-blue-primary), var(--color-blue-light));
-}
 .process-build-top {
   height: 40%;
   position: relative;
@@ -203,6 +202,7 @@ body {
 }
 .process-build-top__heading {
   position: absolute;
+  color: rgba(0, 0, 0, 0.9);
   left: 2rem;
   top: 6rem;
   padding: 0.5rem 1rem;
@@ -213,12 +213,43 @@ body {
   padding: 2.5rem;
 }
 
+.card {
+  height: 35rem;
+  width: 30rem;
+  border-radius: 3px;
+  box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  background-color: #ccc;
+}
+.card-top {
+  background-size: cover;
+}
+.card-bottom {
+  padding: 1rem;
+}
+.card-title {
+  font-size: 2.25rem;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+.card-detail {
+  font-size: 1.3rem;
+}
+.card-detail :nth-child(1), .card-detail :nth-child(2) {
+  border-right: 1px solid black;
+  padding-right: 0.5rem;
+}
+.card-address {
+  font-size: 1.3rem;
+}
+.card-sub {
+  color: rgb(92, 92, 92);
+}
+
 .homes {
-  background-color: blue;
-  height: 30vh;
+  margin-bottom: 6rem;
 }
 .homes-top {
-  background-color: red;
   height: 30%;
   text-align: center;
 }
@@ -226,6 +257,49 @@ body {
   position: relative;
   top: 4rem;
   font-size: 3rem;
+}
+.homes-card-grid {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 30rem);
+  gap: 3rem;
+  justify-content: center;
+}
+
+.hc-1__top {
+  background-image: url(../../assets/samplehome.jpg);
+  height: 50%;
+}
+
+.footer {
+  background-color: #37487c;
+  height: 30vh;
+}
+.footer-box {
+  padding: 5rem 4rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.footer-box > * {
+  width: 35rem;
+  display: inline-block;
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 0.9rem;
+}
+.footer-company {
+  padding: 1rem 5rem;
+}
+.footer-social {
+  background-position: center;
+}
+.footer-social-fb {
+  height: 3rem;
+  cursor: pointer;
+  padding-top: 0.4rem;
 }
 
 /*# sourceMappingURL=styles.css.map */

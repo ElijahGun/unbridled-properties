@@ -1,0 +1,43 @@
+
+.footer {
+    background-color: #37487c; //linear-gradient( var(--color-blue-light), var(--color-blue-primary))
+    height:  30vh;
+    
+
+    &-box {
+        padding: 5rem 4rem;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+
+        & > * {
+            width: 35rem;
+            display: inline-block;
+            font-size: 2rem;
+            color: rgb(white, .8);
+            line-height: .9rem;
+        }
+    }
+
+
+    &-company  {
+        padding: 1rem 5rem;
+    }
+
+    &-cpy {
+        
+    }
+
+    &-social {
+
+        background-position: center;
+
+        &-fb {
+            height: 3rem;
+            cursor: pointer;
+            padding-top: .4rem;
+        }
+    }
+}
