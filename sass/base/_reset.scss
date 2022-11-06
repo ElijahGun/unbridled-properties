@@ -1,5 +1,11 @@
 :root {
   font-size: 62.5%; // 1rem = 10px;
+
+  --color-blue-primary: rgba(37, 37, 223, .7);
+
+  --color-blue-light:rgb(199, 220, 248);
+  
+  --color-gray-light: #ccc;
 }
 
 html {
@@ -8,7 +14,7 @@ html {
 }
 
 body {
-    padding: 0;
+    padding: 1.5rem;
     margin: 0;
 }
 

@@ -1,15 +1,13 @@
 
 
 .why-up {
-    //dev 
-    height: 23rem;
-    background-color: aqua;
+    padding-top: 7rem;
+    margin-bottom: 5rem;
 
     &--triangle {
         position: relative;
-        top: 4rem;
-        background-color: red;
-        height: 15rem;
+        background: var(--color-blue-light);
+        height: 17rem;
         clip-path: polygon(50% 0, 75% 100%, 25% 100%,  ); //0 0, 100% 0, 100% 100%, 75% 100%, 50% 0, 25% 100%, 0 100%
     }
     &--heading {
@@ -19,4 +17,90 @@
         top: 50%;
         transform: translate(-50%, -50%);
     }
+}
+
+.process-box {
+ display: flex;
+ justify-content: space-between;
+ background: var(--color-blue-light);
+ height: 70vh;
+
+ & > * {
+    width: 40%;
+    background-color: var(--color-blue-primary);
+    box-shadow: 0 1rem 1.5rem rgb(black, .3);
+ }
+}
+
+.process-design {
+    background: linear-gradient( to bottom left, var(--color-blue-primary), var(--color-blue-light));
+
+    &-top {
+        height: 40%;
+        position: relative;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
+        background-image: url(../../assets/design.jpg);
+        background-position: center;
+
+        &__heading {
+            position: absolute;
+            right: 2rem;
+            top: 6rem;
+            padding: .5rem 1rem;
+            font-size: 2rem;
+            background: linear-gradient( rgb(white, .7), rgb(white, .5));
+        }
+    }
+
+    &-bottom {
+
+        &__text-box {
+            padding: 2.5rem;
+        }
+    }
+
+}
+
+.process-heading {
+    font-size: 2rem;
+    text-decoration: underline;
+    text-align: center;
+
+}
+
+.process-text {
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.process-build{
+    background: linear-gradient( to bottom right, var(--color-blue-primary), var(--color-blue-light));
+
+    &-top {
+        height: 40%;
+        position: relative;
+        clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+        background-image: linear-gradient( rgb(rgb(174, 178, 187),.2), rgb(rgb(141, 220, 220), .2)) ,url(../../assets/construction.jpg);
+        background-position: center;
+        background-blend-mode: screen;
+
+        &__heading {
+            position: absolute;
+            left: 2rem;
+            top: 6rem;
+            padding: .5rem 1rem;
+            font-size: 2rem;
+            background: linear-gradient( rgb(white, .7), rgb(white, .5));
+
+        }
+    }
+
+    &-bottom {
+
+        &__text-box {
+            padding: 2.5rem;
+        }
+    }
+
+
 }

@@ -1,12 +1,28 @@
 
 .header-hero{
     //TODO: COLOR SCHEME FOR IMAGE GRADIENT
-    background-image: linear-gradient( rgb(green,.2), rgb(blue, .2)), url(../../assets/hero-home.jpg); //
-    background-size: cover;
-    background-position: center;
-    height: 30rem;
-    box-shadow: 0 1rem 1rem rgb(black, .2);
+    height: 80vh;
+    box-shadow: 0 1rem 1.5rem rgb(black, .2);
     position: relative;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-bottom: 6rem;
+
+    &__img {
+        height: 100%;
+        width: 100%;
+        background-image: linear-gradient( rgb(green,.2), rgb(blue, .2)), url(../../assets/hero-home.jpg); //
+        background-size: cover;
+        background-position: center;
+        transition: all .5s ease;
+    
+        &:hover {
+            transform: scale(1.02);
+            cursor: pointer;
+        }
+
+    }
+
 
 
         &--heading {
@@ -32,5 +48,38 @@
             left: 50%;
             bottom: 10%;
             transform: translate(-50%);
+            transition: all .2s ease-in;
+
+            &:hover {
+                transform: translate(-50%, -.75rem)
+                scale(1.025)
+            }
+
+            &:active {
+                transform: translate(-50%, -.4rem)
+                scale(1.01);
+            }
+
+            &:link, &:visited {
+                color: rgb(42, 42, 42);
+            }
         }
+}
+
+//INFO HEADING
+
+.info {
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(black, .8);
+
+    &-1{
+        font-size: 2.5rem;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    &-2 {
+        font-size: 3rem;
+    }
 }

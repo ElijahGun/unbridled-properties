@@ -1,7 +1,7 @@
 
 
 .body-box {
-    max-width: 98rem;
+    max-width: 120rem;
     margin: 0 auto;
     margin-top: 2rem;
 }
@@ -9,9 +9,17 @@
 .nav {
     display: flex;
     align-items: center;
+    // position: sticky;
+    // top: 0;
+    // z-index: 100;
+    // background-color: white;
 
     &-logo {
-        font-size: 4rem;
+        //font-size: 4rem;
+        background-image: url(../../assets/Logo.png);
+        height: 4rem;
+        width: 4rem;
+        background-size: cover;
     }
 
     &-links{
@@ -21,6 +29,7 @@
         list-style: none;
         align-items: center;
         font-size: 2rem;
+        text-transform: uppercase;
 
         & :not(:last-child) {
             margin-right: 2rem;

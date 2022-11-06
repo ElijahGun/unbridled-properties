@@ -1,0 +1,23 @@
+
+
+.homes {
+    background-color: blue;
+    height: 30vh; //dev
+
+    &-top {
+        background-color: red;
+        height: 30%;
+        text-align: center;
+    }
+
+
+    &__heading {
+        position: relative;
+        top: 4rem;
+        font-size: 3rem;
+    }
+
+    &-card-grid {
+
+    }
+}
