@@ -13,7 +13,7 @@
         width: 100%;
         background-image: linear-gradient( rgb(white,.2), rgb(white, .2)), url(../../assets/hero-home.jpg); //
         background-size: cover;
-        background-position: center;
+        background-position: bottom;
         transition: all .5s ease;
     
         &:hover {
@@ -26,14 +26,16 @@
 
 
         &--heading {
-            background: linear-gradient( rgb(white, .7), rgb(white, .5));
+            background: linear-gradient( rgb(white, .95), rgb(white, .9));
             width: 70%;
             position: absolute;
-            top: 35%;
+            top: 52%;
             left: 50%;
             padding: 1rem;
             box-shadow: 0 1rem 1rem rgb(black, .3);
             transform: translateX(-50%);
+            border-radius: 5px;
+            color: rgb(black, .8);
 
             &--lg {
                 font-size: 4.5rem;
@@ -62,7 +64,7 @@
             }
 
             &:link, &:visited {
-                color: rgb(42, 42, 42);
+                color: black;
             }
         }
 }

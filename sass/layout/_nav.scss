@@ -10,10 +10,6 @@
 .nav {
     display: flex;
     align-items: center;
-    // position: sticky;
-    // top: 0;
-    // z-index: 100;
-    // background-color: white;
 
     &-logo {
         //font-size: 4rem;
@@ -38,6 +34,7 @@
 
         & > * {
             cursor: pointer;
+            color: rgb(black, .8)
         }
     }
 }

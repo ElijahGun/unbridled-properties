@@ -39,4 +39,10 @@
     &-sub {
         color: rgb(92, 92, 92)
     };
+
+    &:hover {
+        cursor: pointer;
+        outline: .5rem solid gray;
+        outline-offset: .2rem;
+    }
 }

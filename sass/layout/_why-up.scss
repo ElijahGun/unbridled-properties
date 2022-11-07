@@ -6,7 +6,7 @@
 
     &--triangle {
         position: relative;
-        background: var(--color-blue-light);
+        background: #ccc;
         height: 17rem;
         clip-path: polygon(50% 0, 75% 100%, 25% 100%,  ); //0 0, 100% 0, 100% 100%, 75% 100%, 50% 0, 25% 100%, 0 100%
     }
@@ -22,7 +22,7 @@
 .process-box {
  display: flex;
  justify-content: space-between;
- background: var(--color-blue-light);
+ background: #ccc;
  height: 70vh;
 
 
@@ -32,6 +32,7 @@
     background-color: #37487c;
     box-shadow: 0 1rem 1.5rem rgb(black, .3);
     color: rgb(white, .8);
+
  }
 }
 
@@ -50,8 +51,9 @@
             top: 6rem;
             padding: .5rem 1rem;
             font-size: 2rem;
-            background: linear-gradient( rgb(white, .7), rgb(white, .5));
-            color: black;
+            background: linear-gradient( rgb(white, .8), rgb(white, .9));
+            box-shadow: 0 .5rem .5rem rgb(black, .4);
+            color: rgb(black, .9);
         }
     }
 
@@ -95,7 +97,8 @@
             top: 6rem;
             padding: .5rem 1rem;
             font-size: 2rem;
-            background: linear-gradient( rgb(white, .7), rgb(white, .5));
+            background: linear-gradient( rgb(white, .8), rgb(white, .9));
+            box-shadow: 0 .5rem .5rem rgb(black, .4);
 
         }
     }
