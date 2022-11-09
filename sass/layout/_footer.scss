@@ -1,11 +1,6 @@
 
 .footer {
     background-color: #37487c; //linear-gradient( var(--color-blue-light), var(--color-blue-primary))
-    height:  30vh;
-    
-    @media screen and (max-width:78rem) {
-        height: 40vh;
-    }
 
     &-box {
         padding: 5rem 4rem;
