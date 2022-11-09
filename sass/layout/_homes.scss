@@ -27,10 +27,27 @@
 }
 
 //cards
+
+//default pic
+.hc__top {
+    background-image: url(../../assets/samplehome.jpg);
+        height: 50%;
+}
+
 .hc-1 {
     
     &__top {
-        background-image: url(../../assets/samplehome.jpg);
+        background-image: url(../../assets/309\ Highland\ Ct.jpeg);
         height: 50%;
     }
+}
+
+.hc-2__top {
+    background-image: url(../../assets/1994\ Harris\ Creek\ .jpg);
+    height: 50%;
+    background-position: center;
+}
+
+.sold {
+    color: red;
 }

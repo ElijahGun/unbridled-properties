@@ -10,6 +10,9 @@
 .nav {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+
+
 
     &-logo {
         //font-size: 4rem;
@@ -17,6 +20,12 @@
         height: 4rem;
         width: 4rem;
         background-size: cover;
+        margin-bottom: 1.5rem;
+
+        @media screen and (max-width:440px) {
+            margin: 0 auto;
+            margin-bottom: 1.5rem;
+        }
     }
 
     &-links{
@@ -27,6 +36,15 @@
         align-items: center;
         font-size: 2rem;
         text-transform: uppercase;
+
+        @media screen and (max-width:440px) {
+            padding-left: 0;
+            margin: 1.5rem auto;
+        }
+
+        @media screen and (max-width:362px) {
+            font-size: 1.8rem;
+        }
 
         & :not(:last-child) {
             margin-right: 2rem;

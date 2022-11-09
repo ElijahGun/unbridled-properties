@@ -16,6 +16,11 @@
         left: 50%;
         top: 50%;
         transform: translate(-50%, -50%);
+
+        @media screen and (max-width:500px) {
+            font-size: 2rem;
+            top: 65%;
+         }
     }
 }
 
@@ -23,15 +28,27 @@
  display: flex;
  justify-content: space-between;
  background: #ccc;
- height: 70vh;
+ height: 70rem;
+
+ @media screen and (max-width:500px) {
+    flex-direction: column;
+    justify-content: space-between;
+    height: 120rem;
+    gap: 4rem;
+ }
 
 
  & > * {
     width: 40%;
+    height: 100%;
     background-color: var(--color-blue-primary);
     background-color: #37487c;
     box-shadow: 0 1rem 1.5rem rgb(black, .3);
     color: rgb(white, .8);
+
+    @media screen and (max-width:500px) {
+        width: 100%;
+    }
 
  }
 }
@@ -71,11 +88,13 @@
     text-decoration: underline;
     text-align: center;
 
+
 }
 
 .process-text {
     font-size: 1.6rem;
     text-align: center;
+    margin-bottom: 4rem;
 }
 
 .process-build{

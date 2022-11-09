@@ -8,6 +8,7 @@
 
     <title>Unbridled Properties</title>
     <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+    <script defer src="index.js"></script>
   </head>
   <body>
     <!-- Body Container -->
@@ -35,11 +36,11 @@
 
       <div class="info">
         <p class="info-1">Unbridled Properties</p>
-        <p class="info-2">Serving Danville, KY and Surrounding Areas</p>
+        <p id="why-up" class="info-2">Serving Danville, KY and Surrounding Areas</p>
       </div>
 
       <!-- WHY US SECTION -->
-      <section id="why-up" class="why-up">
+      <section  class="why-up hidden">
         <div class="why-up--triangle"><h3 class="why-up--heading">Why UP?</h3></div>
         <div  class="process-box">
           <div class="process-design">
@@ -83,21 +84,21 @@
         </div>
       </section>
       <!-- HOMES SECTION -->
-      <section class="homes">
+      <section class="homes hidden">
         <div class="homes-top">
           <h2 class="homes__heading">Our Homes</h2>
         </div>
         <div id="homes" class="homes-card-grid">
             <!-- home 1 -->
           <div class="card homes-card hc-1">
-            <div class="card-top homes-card--top hc-1__top"></div>
+            <div class="card-top homes-card--top hc-1__top hc__top"></div>
             <div class="card-bottom homes-card--bottom hc-1__bottom">
-              <h4 class="card-title hc-title">$263,900</h4>
+              <h4 class="card-title hc-title">$145,000</h4>
               <p class="card-detail hc-detail">
-                <span>3 beds</span> <span>3 baths</span> <span>2,200 sqft</span>
-                <span>- Available Now</span>
+                <span>3 beds</span> <span>2 baths</span> <span>1,200 sqft</span>
+                <span class="sold">- SOLD</span>
               </p>
-              <p class="card-address hc-address">123 Main St. Danville, KY 20320</p>
+              <p class="card-address hc-address">309 Highland Ct, Danville, KY 40422</p>
               <p class="card-sub hc-sub">
                 Listed in partnership with Luiza Gundorin / Black Tie Realty
               </p>
@@ -105,14 +106,14 @@
           </div>
           <!-- home 2 -->
           <div class="card homes-card hc-1">
-            <div class="card-top homes-card--top hc-1__top"></div>
+            <div class="card-top homes-card--top hc-2__top hc__top"></div>
             <div class="card-bottom homes-card--bottom hc-1__bottom">
-              <h4 class="card-title hc-title">$263,900</h4>
+              <h4 class="card-title hc-title">$260,000</h4>
               <p class="card-detail hc-detail">
-                <span>3 beds</span> <span>3 baths</span> <span>2,200 sqft</span>
-                <span>- Available Now</span>
+                <span>3 beds</span> <span>2 baths</span> <span>1,450 sqft</span>
+                <span class="sold">- SOLD</span>
               </p>
-              <p class="card-address hc-address">123 Main St. Danville, KY 20320</p>
+              <p class="card-address hc-address">1994 Harris Creek Rd, Stanford, KY 40484</p>
               <p class="card-sub hc-sub">
                 Listed in partnership with Luiza Gundorin / Black Tie Realty
               </p>
@@ -120,14 +121,14 @@
           </div>
           <!-- home 3 -->
           <div class="card homes-card hc-1">
-            <div class="card-top homes-card--top hc-1__top"></div>
+            <div class="card-top homes-card--top hc-3__top hc__top"></div>
             <div class="card-bottom homes-card--bottom hc-1__bottom">
-              <h4 class="card-title hc-title">$263,900</h4>
+              <h4 class="card-title hc-title">$250,000</h4>
               <p class="card-detail hc-detail">
-                <span>3 beds</span> <span>3 baths</span> <span>2,200 sqft</span>
+                <span>3 beds</span> <span>2 baths</span> <span>1,350 sqft</span>
                 <span>- Available Now</span>
               </p>
-              <p class="card-address hc-address">123 Main St. Danville, KY 20320</p>
+              <p class="card-address hc-address">TBD - Under Construction</p>
               <p class="card-sub hc-sub">
                 Listed in partnership with Luiza Gundorin / Black Tie Realty
               </p>
@@ -138,7 +139,7 @@
     </div>
     <!-- Footer -->
     <footer id="contact" class="footer">
-      <div class="footer-box">
+      <div class="footer-box hidden">
 
         <div class="footer-company">
           <p>Unbridled Properties </p>
@@ -147,7 +148,9 @@
         </div>
         <div class="footer-cpy">site design by Elijah Gundorin 2022 ©</div>
         <div class="footer-social">
-          <svg class="footer-social-fb" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 124.8 123.36"><defs><style>.cls-1,.cls-2{fill:none;}.cls-1{clip-rule:evenodd;}.cls-3{clip-path:url(#clip-path);}.cls-4{clip-path:url(#clip-path-2);}.cls-5{fill:#fff;}</style><clipPath id="clip-path" transform="translate(0.69 0.51)"><path class="cls-1" d="M27.75,0H95.13a27.83,27.83,0,0,1,27.75,27.75V94.57a27.83,27.83,0,0,1-27.75,27.74H27.75A27.83,27.83,0,0,1,0,94.57V27.75A27.83,27.83,0,0,1,27.75,0Z"/></clipPath><clipPath id="clip-path-2" transform="translate(0.69 0.51)"><rect class="cls-2" width="122.88" height="122.31"/></clipPath></defs><title>facebook-app</title><g class="cls-3"><g class="cls-4"><image width="260" height="257" transform="matrix(0.48, 0, 0, -0.48, 0, 123.36)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQQAAAEBCAYAAACexdu5AAAACXBIWXMAABcRAAAXEQHKJvM/AAAEFUlEQVR4Xu3dwXEdIRBFUb4kZ+HwHJbDcxrSeAG+hctVJgDO2cyG9aumoYfX8zzP68evAdzr+fl9jDHG22EdcJGPMcZ4vV6ndcAFPubn+f8q4Aq2DEBmhWDLAAxbBmCzAkGFAKgQgM3qIRxWAVdwygBkVQhyAdBUBDZKAyCaikBmIDxfh2XADda0o50DUFNRhQBoKgIbgQBEIABx7AhEhQBEIACZW4a398My4AYqBCACAYhZBiCrh6BQAFQIwGZOO55WAVewVwDin4pAVlNRIACaisDG689ANBWBeLkJyOoheP0Z8Bw8sNFUBKJCAKKbCEQgAHHsCGQ99npaBtxAaQDEsSMQ045ANBWBqBCAKA2AeA4eiAoBiEAAIhCA6CEAUSEAWcNNcgEwywBs3FQEYpYBiAoByHr9WYUAqBCAzXqXwSkD4KEWYOPqMhDHjkBsGYCYZQCyjh1VCEAXk3QVAT0EYCMQgDh2BLIqBLMMQBXC+2EZcAPTjkD0EICsm4qnZcANlAZAjD8D0VQEoqkIxNVlIEoDIJqKQOY9hNMq4AoqBCB6CEDWL9RMOwIqBGDjbUcgq6noYhJglgHYaCoCWRXC52EZcIP1xyRNRaAK4bAKuIKry0D8IAWIl5uAqBCA+IUakFUh6CoCph2BzbqHYMsAuIcAbGwZgPhBChAVApA17XhaBtxAhQBEIAARCEAEAhCzDEBMOwKxZQAiEIAYbgJilgGILQOQOctwWgVcQQ8BiC0DkPUcvFwA+smql5sALzcBG8NNQGwZgKx/KtoyAO4hABulARBNRSCaikDcQwCiqQjElgHIqhDeD8uAG6xfqKkQADcVgY2mIhBNRSCaikBWhfB5WAbcwCwDEMcLQNax42kZcAMVAhCBAMTFJCDr5Sb3EAA3FYHNPGVQIQBDUxHYuLoMRFMRiKYiEBUCEBeTgDhlADLvIZxWAVfwgxQgtgxANBWBzED4clMR7vZtjOEeArBxUxGIHgIQ/0MAYvwZGLUTD6uAi8xY0EQAhqYisHEPAYimIjDGmEWB8Wcgxp+BOHYEoqkIRFMRGH82C7YMQAw3AfkYY4zH/xDgcnOzoEIAYpYBiKYiEIEAxJYBiAoBiGlHILYMQPxTEYiXm4Dx103F8aa3CDhlADa2DMCwZQD+oUIAxt/jz/9dCNzCb9iBaB4AEQhAzDIAUSEAEQhAnDIAUSEAcTEJiFMGIAIByBpuOqwCrqBCACIQgNgyAFEhAHExCYhAADJvKtoyAEOFAGwEAhCBAEQgAHEPAYgKAYhAACIQgAgEIAIBiEAAIhCACAQgAgGIQAAiEIAIBCACAYhAACIQgAgEIAIBiEAAIhCACAQgAgGIQAAiEIAIBCACAYhAACIQgAgEIAIBiEAAIhCA/AafC2PbZ0osjAAAAABJRU5ErkJggg=="/></g></g><path class="cls-5" d="M85.36,78.92l2.72-17.76H71V49.63c0-4.86,2.38-9.59,10-9.59H88.8V24.92a94.45,94.45,0,0,0-13.75-1.2c-14,0-23.21,8.5-23.21,23.9V61.16H36.24V78.92h15.6v43.57H71V78.92Z" transform="translate(0.69 0.51)"/></svg>
+          <a href="https://www.facebook.com/profile.php?id=100077210693306" target="_blank" rel="noopener noreferrer">
+            <svg class="footer-social-fb" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 124.8 123.36"><defs><style>.cls-1,.cls-2{fill:none;}.cls-1{clip-rule:evenodd;}.cls-3{clip-path:url(#clip-path);}.cls-4{clip-path:url(#clip-path-2);}.cls-5{fill:#fff;}</style><clipPath id="clip-path" transform="translate(0.69 0.51)"><path class="cls-1" d="M27.75,0H95.13a27.83,27.83,0,0,1,27.75,27.75V94.57a27.83,27.83,0,0,1-27.75,27.74H27.75A27.83,27.83,0,0,1,0,94.57V27.75A27.83,27.83,0,0,1,27.75,0Z"/></clipPath><clipPath id="clip-path-2" transform="translate(0.69 0.51)"><rect class="cls-2" width="122.88" height="122.31"/></clipPath></defs><title>facebook-app</title><g class="cls-3"><g class="cls-4"><image width="260" height="257" transform="matrix(0.48, 0, 0, -0.48, 0, 123.36)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQQAAAEBCAYAAACexdu5AAAACXBIWXMAABcRAAAXEQHKJvM/AAAEFUlEQVR4Xu3dwXEdIRBFUb4kZ+HwHJbDcxrSeAG+hctVJgDO2cyG9aumoYfX8zzP68evAdzr+fl9jDHG22EdcJGPMcZ4vV6ndcAFPubn+f8q4Aq2DEBmhWDLAAxbBmCzAkGFAKgQgM3qIRxWAVdwygBkVQhyAdBUBDZKAyCaikBmIDxfh2XADda0o50DUFNRhQBoKgIbgQBEIABx7AhEhQBEIACZW4a398My4AYqBCACAYhZBiCrh6BQAFQIwGZOO55WAVewVwDin4pAVlNRIACaisDG689ANBWBeLkJyOoheP0Z8Bw8sNFUBKJCAKKbCEQgAHHsCGQ99npaBtxAaQDEsSMQ045ANBWBqBCAKA2AeA4eiAoBiEAAIhCA6CEAUSEAWcNNcgEwywBs3FQEYpYBiAoByHr9WYUAqBCAzXqXwSkD4KEWYOPqMhDHjkBsGYCYZQCyjh1VCEAXk3QVAT0EYCMQgDh2BLIqBLMMQBXC+2EZcAPTjkD0EICsm4qnZcANlAZAjD8D0VQEoqkIxNVlIEoDIJqKQOY9hNMq4AoqBCB6CEDWL9RMOwIqBGDjbUcgq6noYhJglgHYaCoCWRXC52EZcIP1xyRNRaAK4bAKuIKry0D8IAWIl5uAqBCA+IUakFUh6CoCph2BzbqHYMsAuIcAbGwZgPhBChAVApA17XhaBtxAhQBEIAARCEAEAhCzDEBMOwKxZQAiEIAYbgJilgGILQOQOctwWgVcQQ8BiC0DkPUcvFwA+smql5sALzcBG8NNQGwZgKx/KtoyAO4hABulARBNRSCaikDcQwCiqQjElgHIqhDeD8uAG6xfqKkQADcVgY2mIhBNRSCaikBWhfB5WAbcwCwDEMcLQNax42kZcAMVAhCBAMTFJCDr5Sb3EAA3FYHNPGVQIQBDUxHYuLoMRFMRiKYiEBUCEBeTgDhlADLvIZxWAVfwgxQgtgxANBWBzED4clMR7vZtjOEeArBxUxGIHgIQ/0MAYvwZGLUTD6uAi8xY0EQAhqYisHEPAYimIjDGmEWB8Wcgxp+BOHYEoqkIRFMRGH82C7YMQAw3AfkYY4zH/xDgcnOzoEIAYpYBiKYiEIEAxJYBiAoBiGlHILYMQPxTEYiXm4Dx103F8aa3CDhlADa2DMCwZQD+oUIAxt/jz/9dCNzCb9iBaB4AEQhAzDIAUSEAEQhAnDIAUSEAcTEJiFMGIAIByBpuOqwCrqBCACIQgNgyAFEhAHExCYhAADJvKtoyAEOFAGwEAhCBAEQgAHEPAYgKAYhAACIQgAgEIAIBiEAAIhCACAQgAgGIQAAiEIAIBCACAYhAACIQgAgEIAIBiEAAIhCACAQgAgGIQAAiEIAIBCACAYhAACIQgAgEIAIBiEAAIhCA/AafC2PbZ0osjAAAAABJRU5ErkJggg=="/></g></g><path class="cls-5" d="M85.36,78.92l2.72-17.76H71V49.63c0-4.86,2.38-9.59,10-9.59H88.8V24.92a94.45,94.45,0,0,0-13.75-1.2c-14,0-23.21,8.5-23.21,23.9V61.16H36.24V78.92h15.6v43.57H71V78.92Z" transform="translate(0.69 0.51)"/></svg>
+          </a>
         </div>
       </div>
     </footer>
